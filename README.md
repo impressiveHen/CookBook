@@ -27,14 +27,22 @@
 ## Description
 
 This repository contains code for a REST API CRUD application the Cookbook API created by Nest.js. This API contains endpoints that allow users to rate
-restaurants i.e create, update, delete basic restaurant info. It also implements user' sigin authentication and also JWT authorization for certain endpoints.
-Swagger documentation that describes this REST API was also added which can be navigated to at http://localhost:3000/api while the application is running.
+restaurants i.e create, update, delete basic restaurant info. For user endpoint, it implements sigin authentication to check encrypted password. When user is successfully signed the API returns a JWT token for authorization on certain endpoints. Swagger documentation that describes the REST API was also added which can be navigated to at http://localhost:3000/api while the application is running.
 
 ## Setup
 
 ```bash
+# Install the dependencies in the local node_modules folder.
 $ npm install
+
+# Populate a MongoDb database "richmond" with "restaurants", "users" collection that contains a few documents.
 $ mongorestore --gzip --db richmond --archive=mongodump.archive
+
+# Create .env file for defining local variables.
+$ example: 
+$ MONGO_URI="mongodb://localhost/richmond"
+$ JWT_SECRET="jwtsecretkey"
+
 ```
 
 ## Running the app
