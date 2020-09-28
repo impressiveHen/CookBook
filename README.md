@@ -38,8 +38,8 @@ $ npm install
 # Populate a MongoDb database "richmond" with "restaurants", "users" collection that contains a few documents.
 $ mongorestore --gzip --db richmond --archive=mongodump.archive
 
-# Create .env file for defining local variables.
-$ example: 
+# Create .env file to define local environmental variables. 
+# Example:
 $ MONGO_URI="mongodb://localhost/richmond"
 $ JWT_SECRET="jwtsecretkey"
 
