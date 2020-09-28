@@ -35,7 +35,7 @@ restaurants i.e create, update, delete basic restaurant info. For user endpoints
 # Install the dependencies in the local node_modules folder.
 $ npm install
 
-# Populate a MongoDb database "richmond" with "restaurants", "users" collection that contains a few documents.
+# Restore mongo archive the MongoDb database "richmond" with "restaurants", "users" collection that contains a few documents.
 $ mongorestore --gzip --db richmond --archive=mongodump.archive
 
 # Create .env file to define local environmental variables. 
