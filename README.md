@@ -26,8 +26,8 @@
 
 ## Description
 
-This repository contains code for a REST API CRUD application the Cookbook API created by Nest.js. This API contains endpoints that allow users to rate
-restaurants i.e create, update, delete basic restaurant info. For user endpoint, it implements sigin authentication to check encrypted password. When user is successfully signed the API returns a JWT token for authorization on certain endpoints. Swagger documentation that describes the REST API was also added which can be navigated to at http://localhost:3000/api while the application is running.
+This repository contains code for a REST API CRUD application - the Cookbook API created by Nest.js. This API contains endpoints that allow users to rate
+restaurants i.e create, update, delete basic restaurant info. For user endpoints, it implements sigin authentication to check encrypted password. When user is successfully signed the API returns a JWT token for authorization on certain endpoints. Swagger documentation that describes the REST API was also added which can be navigated to at http://localhost:3000/api while the application is running.
 
 ## Setup
 
